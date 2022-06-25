@@ -12,4 +12,5 @@ git merge $开发分支 —— 合并开发分支到本地主干分支
     如果发生代码冲突conflict：git merge --abort —— 回滚merge操作
 git push —— 提交大远程主干分支
 
-change
+#pull 
+git pull origin $主干分支 ——— 拉取主干分支，合并到开发分支
