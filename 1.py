@@ -19,6 +19,6 @@ git merge origin/master
 git pull origin $主干分支 ——— 拉取主干分支，合并到开发分支
 方法—：
 git fetch origin master  —— 获取远程分支到本地
-git log -p master..origin/master —— 查看远程master分支与本地master分支的差别
+
 
 
