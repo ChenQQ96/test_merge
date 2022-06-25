@@ -16,7 +16,7 @@ git push —— 提交大远程主干分支
 方法—：
 git fetch origin master  —— 获取远程分支到本地
 git log -p maste..origin/master —— 查看远程master分支与本地master分支的差别
-git merge origin/master
+git merge origin master
 方法二：
 git pull origin $主干分支 ——— 拉取主干分支，合并到开发分支
 
