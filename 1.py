@@ -8,4 +8,5 @@ git push origin $开发分支 —— 提交到远程开发分支
 
 #merge
 git checkout $主干分支 —— 切换到主干分支
-git merge $开发分支 —— #合开发分支到master
+git merge $开发分支 —— 合并开发分支到本地主干分支
+git push —— 提交大远程主干分支
